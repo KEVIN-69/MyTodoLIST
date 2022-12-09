@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+	font-family: 'montserrat', sans-serif;
+}
+body {
+	background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* scrollbar */
+html::-webkit-scrollbar {
+	width: 0.3rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: #979393;
+}
+
+/** Banner **/
+.banner{
+    margin-top: 50px;
+}
+
+.banner-images{
+    width: 88%;
+    height: 500px;
+    margin-top: 7%;
+}
+.banner{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.navbarku{
+    background-color: #e44232;
+}
+
+.btnku:hover{
+    background-color: #e44232;
+    color: white;
+}
+
+.img-about{
+    width: 90%;
+    height: 460px;
+}
+
+.img-start{
+    width: 90%;
+    height: 460px;
+}
